@@ -8140,7 +8140,7 @@ var setVNodeData = function setVNodeData(vnode, name, value) {
   vnode.data = vnode.data || {};
   vnode.data[name] = value;
 };
-var DATA_KEYS = ['class', 'staticClass', 'style', 'attrs', 'props', 'domProps', 'on', 'nativeOn', 'directives', 'scopesSlots', 'slot', 'ref', 'key'];
+var DATA_KEYS = ['class', 'staticClass', 'style', 'attrs', 'props', 'domProps', 'on', 'nativeOn', 'directives', 'scopedSlots', 'slot', 'ref', 'key'];
 
 function mutateKey(key) {
   return '' + key + "-cloned-cid";
